@@ -1,0 +1,206 @@
+#bew {
+  width: 80%;
+}
+
+.mdl-layout__header {
+  background: #F25C04;
+}
+
+#about {
+  background: url("../img/logoop.png") center;
+  height: 100vh;
+  background-attachment: fixed;
+  background-size: 40%;
+  background-blend-mode: exclusion;
+  background-repeat: no-repeat;
+}
+
+#about .imga {
+  position: relative;
+  bottom: 0px;
+}
+
+#about #intro {
+  padding-top: 5em;
+}
+
+#about h1 {
+  color: #F25C04;
+}
+
+#about-us {
+  background: #000 url("../img/logoop.png") center;
+  height: 100vh;
+  background-attachment: fixed;
+  background-size: 40%;
+  background-blend-mode: exclusion;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+#about-us .mdc-card {
+  background: #fff;
+  width: 60%;
+}
+
+#about-us #imge {
+  padding-top: 8vh;
+}
+
+#about-us .mdc-typography--paragraph {
+  padding-top: 10vh;
+  text-align: center;
+  font-size: 20px;
+}
+
+#about-us #abo {
+  padding-top: 2em;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+#events {
+  background: url("../img/logoop.png") center;
+  height: 100vh;
+  background-attachment: fixed;
+  background-size: 40%;
+  background-blend-mode: exclusion;
+  background-repeat: no-repeat;
+}
+
+#contact-us {
+  background: #000 url("../img/logoop.png") center;
+  height: 100vh;
+  background-attachment: fixed;
+  background-size: 40%;
+  background-blend-mode: exclusion;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+#contact-us .mdc-card {
+  background: #fff;
+  width: 40%;
+  padding: 2em;
+}
+
+#register-now {
+  background: url("../img/logoop.png") center;
+  height: 100%;
+  background-attachment: fixed;
+  background-size: 40%;
+  background-blend-mode: exclusion;
+  background-repeat: no-repeat;
+}
+
+#register-now .mdc-card {
+  background: #dcdcdc;
+  width: 90%;
+  padding: 2em;
+}
+
+#register-now .mdc-card .mdc-text-field, #register-now .mdc-card .mdc-select {
+  width: 70%;
+}
+
+#register-now .mdc-card #po {
+  width: 1em;
+}
+
+@media only screen and (max-width: 480px) {
+  #register-now .mdl-layout__header {
+    background: #F25C04;
+  }
+  #register-now #about {
+    background: url("../img/logoop.png") center;
+    height: 100%;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-blend-mode: exclusion;
+    background-repeat: no-repeat;
+  }
+  #register-now #about .imga {
+    position: relative;
+    bottom: 0px;
+  }
+  #register-now #about #intro {
+    padding-top: 5em;
+  }
+  #register-now #about h1 {
+    color: #F25C04;
+  }
+  #register-now #about-us {
+    background: #000 url("../img/logoop.png") center;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: 40%;
+    background-blend-mode: exclusion;
+    background-repeat: no-repeat;
+    color: #fff;
+  }
+  #register-now #about-us .mdc-card {
+    background: #fff;
+    width: 60%;
+  }
+  #register-now #about-us #imge {
+    padding-top: 8vh;
+  }
+  #register-now #about-us .mdc-typography--paragraph {
+    padding-top: 10vh;
+    text-align: center;
+    font-size: 20px;
+  }
+  #register-now #about-us #abo {
+    padding-top: 2em;
+  }
+  #register-now * {
+    scroll-behavior: smooth;
+  }
+  #register-now #events {
+    background: url("../img/logoop.png") center;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: 40%;
+    background-blend-mode: exclusion;
+    background-repeat: no-repeat;
+  }
+  #register-now #contact-us {
+    background: #000 url("../img/logoop.png") center;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: 40%;
+    background-blend-mode: exclusion;
+    background-repeat: no-repeat;
+    color: #fff;
+  }
+  #register-now #contact-us .mdc-card {
+    background: #fff;
+    width: 40%;
+    padding: 2em;
+  }
+  #register-now #register-now {
+    background: url("../img/logoop.png") center;
+    height: 100%;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-blend-mode: exclusion;
+    background-repeat: no-repeat;
+  }
+  #register-now #register-now a {
+    text-decoration: none;
+  }
+  #register-now #register-now #po {
+    width: 40%;
+  }
+  #register-now #register-now .mdc-card {
+    background: #dcdcdc;
+    width: 90%;
+    padding: 2em;
+  }
+  #register-now #register-now .mdc-card .mdc-text-field, #register-now #register-now .mdc-card .mdc-select {
+    width: 90%;
+  }
+}
+/*# sourceMappingURL=main.css.map */

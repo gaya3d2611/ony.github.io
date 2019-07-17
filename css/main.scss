@@ -1,0 +1,203 @@
+
+#bew{
+    width: 80%;;
+}
+.mdl-layout__header{
+    background: #F25C04;
+}
+#about{
+    background: url('../img/logoop.png') center;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: 40%;
+    background-blend-mode: exclusion;
+    background-repeat: no-repeat;
+    .imga{
+        position: relative;
+        bottom: 0px;
+    }
+    #intro{
+        padding-top: 5em;
+    }
+    h1{
+        color: #F25C04;
+    }
+}
+#about-us{
+    background: #000 url('../img/logoop.png') center;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: 40%;
+    background-blend-mode: exclusion;
+    background-repeat: no-repeat;
+    color: #fff;
+    .mdc-card{
+        background: #fff;
+        width: 60%; 
+    }
+    #imge{
+        padding-top: 8vh;
+    }
+    .mdc-typography--paragraph{
+        padding-top: 10vh;
+        text-align: center;
+        font-size: 20px;
+    }
+    #abo{
+        padding-top: 2em;
+    }
+}
+*{
+    scroll-behavior: smooth;
+}
+#events{
+    background: url('../img/logoop.png') center;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: 40%;
+    background-blend-mode: exclusion;
+    background-repeat: no-repeat;
+}
+
+#contact-us{
+    background: #000 url('../img/logoop.png') center;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: 40%;
+    background-blend-mode: exclusion;
+    background-repeat: no-repeat;
+    color: #fff;
+    .mdc-card{
+        background: #fff;
+        width: 40%; 
+        padding: 2em;
+               
+    }
+
+    
+}
+#register-now{
+    background: url('../img/logoop.png') center;
+    height: 100%;
+    background-attachment: fixed;
+    background-size: 40%;
+    background-blend-mode: exclusion;
+    background-repeat: no-repeat;
+    .mdc-card {
+        background: #dcdcdc;
+        width: 90%; 
+        padding: 2em;
+        .mdc-text-field, .mdc-select{
+            width: 70%;
+        }
+        #po{
+            width:1em;
+
+               
+    }
+
+}
+
+@media only screen and (max-width:480px){
+
+    .mdl-layout__header{
+        background: #F25C04;
+    }
+    #about{
+        background: url('../img/logoop.png') center;
+        height: 100%;
+        background-attachment: fixed;
+        background-size: 100%;
+        background-blend-mode: exclusion;
+        background-repeat: no-repeat;
+        .imga{
+            position: relative;
+            bottom: 0px;
+        }
+        #intro{
+            padding-top: 5em;
+        }
+        h1{
+            color: #F25C04;
+        }
+    }
+    #about-us{
+        background: #000 url('../img/logoop.png') center;
+        height: 100vh;
+        background-attachment: fixed;
+        background-size: 40%;
+        background-blend-mode: exclusion;
+        background-repeat: no-repeat;
+        color: #fff;
+        .mdc-card{
+            background: #fff;
+            width: 60%; 
+        }
+        #imge{
+            padding-top: 8vh;
+        }
+        .mdc-typography--paragraph{
+            padding-top: 10vh;
+            text-align: center;
+            font-size: 20px;
+        }
+        #abo{
+            padding-top: 2em;
+        }
+    }
+    *{
+        scroll-behavior: smooth;
+    }
+    #events{
+        background: url('../img/logoop.png') center;
+        height: 100vh;
+        background-attachment: fixed;
+        background-size: 40%;
+        background-blend-mode: exclusion;
+        background-repeat: no-repeat;
+    }
+    
+    #contact-us{
+        background: #000 url('../img/logoop.png') center;
+        height: 100vh;
+        background-attachment: fixed;
+        background-size: 40%;
+        background-blend-mode: exclusion;
+        background-repeat: no-repeat;
+        color: #fff;
+        .mdc-card{
+            background: #fff;
+            width: 40%; 
+            padding: 2em;
+                   
+        }
+    
+        
+    }
+    #register-now{
+        a{
+        text-decoration: none;
+        }
+        background: url('../img/logoop.png') center;
+        height: 100%;
+        background-attachment: fixed;
+        background-size: 100%;
+        background-blend-mode: exclusion;
+        background-repeat: no-repeat;
+        #po{
+            width: 40%;
+        }
+        .mdc-card {
+            background: #dcdcdc;
+            width: 90%; 
+            padding: 2em;
+            .mdc-text-field, .mdc-select{
+                width: 90%;
+            }
+    
+                   
+        }
+    
+    }
+}
+}
